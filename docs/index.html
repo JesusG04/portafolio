@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/styles.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/92e1919b6a.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Home</title>
+</head>
+
+<body class="bg-gray-900 font-sans">
+
+  <header class="p-5 border-b border-gray-700 shadow text-gray-100">
+
+    <div class="container mx-auto flex justify-between items-center gap-3">
+
+      <h1 class="text-5xl font-semibold mb-2">D<span class="text-green-500">e</span>v. <span
+          class="text-green-500">J</span>G</h1>
+
+      <!-- <button class="md:hidden p-2 " id="menu-toggle">
+        <i class="fas fa-bars text-3xl"></i>
+      </button> -->
+
+      <div class="md:hidden">
+        <input type="checkbox" id="menu-toggle" class="hidden peer">
+        <label for="menu-toggle" class="cursor-pointer p-2  peer-checked:hidden "
+          aria-label="Abrir menú">
+          <i class="fas fa-bars text-3xl "></i>
+        </label>
+        <label for="menu-toggle" class="cursor-pointer p-2 hidden peer-checked:block animate-jump animate-once animate-duration-500"
+          aria-label="Cerrar menú">
+          <i class="fas fa-times hidden text-3xl "></i>
+        </label>
+
+        <!-- Menú desplegable -->
+        <div class="hidden peer-checked:flex flex-col gap-4 absolute top-20 left-0 w-full apx-5">
+          <nav class=" bg-gray-800 rounded-box p-5 text-center animate-fade-down animate-once animate-duration-500">
+            <a href="#" class="p-3 text-green-500 bg-gray-700 block rounded-box">Inicio</a>
+            <a href="#" class=" p-3  hover:text-green-500 transition-colors block rounded-box">Sobre Mi</a>
+            <a href="#" class=" p-3  hover:text-green-500 transition-colors block rounded-box">Proyectos</a>
+            <a href="#" class=" p-3  hover:text-green-500 transition-colors block rounded-box">Contacto</a>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Menú horizontal para pantallas grandes -->
+      <nav class="hidden md:flex gap-5  lg:gap-10 items-center">
+
+        <a href="" target=" _blank" class="border-b-2 p-3 border-green-500 text-green-500">
+          <i class="fas fa-home"></i>
+          Inicio
+        </a>
+        <a href="" target="_blank" class="border-b-2 p-3 border-transparent  hover:text-green-500 transition-colors">
+          <i class="fas fa-user"></i>
+          Sobre Mi
+        </a>
+        <a href="" target="_blank" class="border-b-2 p-3 border-transparent  hover:text-green-500 transition-colors">
+          <i class="fas fa-briefcase"></i>
+          Proyectos
+        </a>
+        <a href="" target="_blank" class="border-b-2 p-3 border-transparent  hover:text-green-500 transition-colors">
+          <i class="fas fa-envelope"></i>
+          Contacto
+        </a>
+      </nav>
+
+    </div>
+
+  </header>
+
+  <section class="h-[90vh] text-gray-100 font-sans pt-8">
+
+    <div class="mx-auto flex flex-col justify-evenly items-center gap-10">
+
+      <div class="w-48 h-48 rounded-full overflow-hidden mt">
+        <img src="src/photo-profile-1.jpg" alt=" Foto de perfil" class="object-cover object-bottom">
+      </div>
+
+      <h2 class="text-4xl md:text-5xl font-extrabold uppercase text-center">Hey, Soy <span
+          class="text-green-500">Jesús</span> García <span class="text-green-500">Silva</span></h2>
+
+      <p class="w-4/5 md:w-3/5 text-center md:text-xl font-extralight">Soy un desarrollador web apasionado por crear
+        sitios
+        funcionales y modernos, utilizando tecnologías de última generación para garantizar el éxito de cada proyecto.
+      </p>
+
+      <a href="" target="_blank"
+        class="bg-green-500 px-20 py-3 rounded text-gray-900 shadow-lg hover:bg-green-600 transition-all font-bold">
+        <i class="fas fa-download"></i>
+        Descargar CV
+      </a>
+
+    </div>
+
+  </section>
+
+  <section class="text-gray-100 md:grid grid-cols-2 gap-4 md:mt-10 lg:mt-0">
+    <div class="mb-5">
+      <h2 class="text-center text-3xl font-bold m-0 uppercase tracking-widest">Sobre mi</h2>
+      <div class="h-1 bg-green-500 w-20 mt-1 mx-auto rounded-lg"></div>
+    </div>
+
+    <div class="bg-green-500 text-gray-900 py-10 px-5 md:p-10">
+      <p class="w-full mx-auto font-medium leading-8 tracking-normal">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et placeat amet dignissimos iste dolorem nam odio
+        incidunt maxime omnis! Hic at temporibus veritatis repellat molestiae porro commodi fugiat possimus in
+        adipisci, nam recusandae eos sapiente illo nostrum tempora accusantium quaerat ut culpa! Sapiente neque
+        molestias animi nobis quod magni necessitatibus.
+        <br> <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor eveniet tempore doloribus beatae
+        cupiditate saepe obcaecati hic exercitationem voluptas eum maiores mollitia est earum, rerum enim assumenda
+        delectus dicta!
+        <br> <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor eveniet tempore doloribus beatae
+        cupiditate saepe obcaecati hic exercitationem voluptas eum maiores mollitia est earum, rerum enim assumenda
+        delectus dicta!
+      </p>
+    </div>
+
+    <div class="col-start-2 col-end-3 row-start-1 mb-5 mt-10 md:mt-0">
+      <h3 class="text-center text-3xl font-bold uppercase tracking-widest">Habilidades</h3>
+      <div class="h-1 bg-green-500 w-20 mt-1 mx-auto rounded-lg"></div>
+    </div>
+
+    <ul class="grid grid-cols-3 lg:grid-cols-3 justify-items-center items-center gap-4 list-none p-0 bg-gray-900/50">
+      <li class="rounded-full p-3 bg-gray-800 backdrop-blur-lg hover:scale-125 transition-all">
+        <img class="w-24" src="src/iconos/html.svg" alt="HTML">
+      </li>
+      <li class="rounded-full p-3 bg-gray-800 backdrop-blur-lg hover:scale-125 transition-all">
+        <img class="w-24" src="src/iconos/css.svg" alt="CSS">
+      </li>
+      <li class="rounded-full p-3 bg-gray-800 backdrop-blur-lg  hover:scale-125 transition-all">
+        <img class="w-24" src="src/iconos/sass.svg" alt="SASS">
+      </li>
+      <li class="rounded-full p-3 bg-gray-800 backdrop-blur-lg  hover:scale-125 transition-all">
+        <img class="w-24" src="src/iconos/tailwind.svg" alt="TAILWINDCSS">
+      </li>
+      <li class="rounded-full p-3 bg-gray-800 backdrop-blur-lg  hover:scale-125 transition-all">
+        <img class="w-24" src="src/iconos/bootstrap.svg" alt="BOOTSTRAP">
+      </li>
+      <li class="rounded-full p-3 bg-gray-800 backdrop-blur-lg hover:scale-125 transition-all">
+        <img class="w-24" src="src/iconos/js.svg" alt="JS">
+      </li>
+      <li class="rounded-full p-3 bg-gray-800 backdrop-blur-lg hover:scale-125 transition-all">
+        <img class="w-24" src="src/iconos/php.svg" alt="PHP">
+      </li>
+      <li class="rounded-full p-3 bg-gray-800 backdrop-blur-lg hover:scale-125 transition-all">
+        <img class="w-24" src="src/iconos/mysql.svg" alt="MYSQL">
+      </li>
+      <li class="rounded-full p-3 bg-gray-800 backdrop-blur-lg col-start-3  hover:scale-125 transition-all">
+        <img class="w-24" src="src/iconos/github.svg" alt="GITHUB">
+      </li>
+    </ul>
+
+  </section>
+
+  <section class="text-gray-100 font-sans mt-20 pb-10">
+
+    <div class="mx-auto flex flex-col justify-evenly items-center gap-10">
+
+      <div class="mb-5">
+        <h2 class="text-center text-3xl font-bold m-0 uppercase tracking-widest">Proyectos</h2>
+        <div class="h-1 bg-green-500 w-20 mt-1 mx-auto rounded-lg"></div>
+      </div>
+
+      <p class="w-4/5 md:w-3/5 text-center md:text-xl font-extralight">Soy un desarrollador web apasionado por crear
+        sitios
+        funcionales y modernos, utilizando tecnologías de última generación para garantizar el éxito de cada proyecto.
+      </p>
+
+      <a href="" target="_blank"
+        class="bg-green-500 px-20 py-3 rounded text-gray-900 shadow-lg hover:bg-green-600 transition-all font-bold">
+        <i class="fas fa-download"></i>
+        Descargar CV
+      </a>
+
+    </div>
+
+  </section>
+
+</body>
+
+</html>
