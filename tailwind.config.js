@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './public/index.html', // Ruta de tu archivo HTML principal
-    './src/**/*.{html,js}', // Ruta de tus archivos de proyecto
+    './docs/index.html', // Ruta de tu archivo HTML principal
+    './dist/**/*.{html,js}', // Ruta de tus archivos de proyecto
     "./node_modules/flyonui/dist/js/accordion.js"
   ],
   safelist: [
